@@ -8,7 +8,7 @@ namespace CICD.Domain
         {
             if (toAdd == null) throw new ArgumentException("Numbers to add can not be null!");
 
-            if (toAdd != String.Empt)
+            if (toAdd != String.Empty)
             {
                 string[] numbers = toAdd.Split(',');
                 int sum = 0;
